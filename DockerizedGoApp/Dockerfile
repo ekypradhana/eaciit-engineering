@@ -1,4 +1,4 @@
-FROM golang:1.9
+FROM golang:latest
 MAINTAINER Eky Pradhana eky.pradhana@eaciit.com
 ADD . /go/src/DockerizedGoApp
 WORKDIR /go/src/DockerizedGoApp
